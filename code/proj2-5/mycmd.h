@@ -1,0 +1,23 @@
+#pragma once
+int execom(int l, int r);
+int execd(int l, int r);
+int exedir(int l, int r);
+int exetime(int l, int r);
+int exepwd(int l, int r);
+int execom_without_pipe(int l, int r);
+int exeenviron(int l, int r);
+int exeecho(int l, int r);
+int exeexit(int l, int r);
+int exejobs(int l, int r);
+int exebg(int l, int r);
+int exefg(int l, int r);
+int exeset(int l, int r);
+int exeunset(int l, int r);
+int exeumask(int l, int r);
+int exeexec(int l, int r);
+int exetest(int l, int r);
+int exeshift(int l, int r);
+int exehelp(int l, int r);
+int exesleep(int l, int r);
+int exemore(int l, int r);
+int execat(int l, int r);
